@@ -66,4 +66,4 @@ MSM is great, however it is still under development. Current limitations are:
 
 ### Documentation
 
-Docs are available at readthedocks.
+[Modbus Shared Memory](https://modbus-shared-memory.readthedocs.io/en/latest/index.html) readthedocs page.
