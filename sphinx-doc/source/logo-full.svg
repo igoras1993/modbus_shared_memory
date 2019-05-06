@@ -1,0 +1,48 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <linearGradient id="svg_22" x1="0.5" y1="0" x2="0.5" y2="1">
+   <stop stop-color="#feffe5" offset="0.394531"/>
+   <stop stop-color="#01001a" offset="1"/>
+  </linearGradient>
+  <linearGradient id="svg_32" x1="0.5" y1="1" x2="0.5" y2="0">
+   <stop stop-color="#feffd6" offset="0.382813"/>
+   <stop stop-color="#010029" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="402" id="canvas_background" fill="url(#svg_22)"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_3" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#FFE7A2" stroke="#000" stroke-width="1.5" d="m115.849684,143.257301l3.00005,-15.466976l12.000241,-3.866751l-15.000291,19.333727l-74.999709,0l0,-116.000001l90.000003,0l0,96.666278" id="svg_1"/>
+  <path fill="#666666" stroke="#000" stroke-width="1.5" stroke-opacity="null" d="m94.202273,55.85731l-13.192248,-11.5l0,5.749999l-14.160053,0l0,-17.25l38.000005,0l0,46.000002l-38.000005,0l0,-17.25l14.160053,0l0,5.749999l13.192248,-11.5z" id="svg_2" transform="rotate(90 85.84996795654298,55.85730743408204) "/>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="44.703125" y="131.0375" id="svg_5" font-size="43" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">S</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="72" y="130.639063" id="svg_6" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">lave</text>
+  <path fill="#FFE7A2" stroke="#000" stroke-width="1.5" d="m522.84967,143.2573l3.00005,-15.46698l12.00024,-3.86675l-15.00029,19.33373l-74.99971,0l0,-116l90.00001,0l0,96.66628" id="svg_9"/>
+  <path fill="#666666" stroke="#000" stroke-width="1.5" stroke-opacity="null" d="m501.20226,55.85731l-13.19224,-11.5l0,5.75l-14.16006,0l0,-17.25l38.00001,0l0,46l-38.00001,0l0,-17.25l14.16006,0l0,5.75l13.19224,-11.5z" id="svg_10" transform="rotate(90 492.8499755859375,55.85730743408207) "/>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="451.703125" y="131.0375" id="svg_11" font-size="43" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">S</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="479" y="130.639063" id="svg_12" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">lave</text>
+  <path fill="#FFE7A2" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m334.517035,185.542307l4.500076,-11.600233l18.000361,-2.900063l-22.500437,14.500296l-112.499567,0l0,-87.000004l135.000009,0l0,72.499711" id="svg_15" transform="rotate(180 289.5174865722656,142.04231262207034) "/>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="233.703125" y="172.0375" id="svg_16" font-size="43" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">M</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="268" y="172" id="svg_17" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">aster</text>
+  <path fill="#666666" stroke="#000" stroke-width="1.5" stroke-opacity="null" d="m325.53478,124.85731l-13.19224,-11.5l0,5.75l-14.16006,0l0,-17.25l38.00001,0l0,46l-38.00001,0l0,-17.25l14.16006,0l0,5.75l13.19224,-11.5z" id="svg_18" transform="rotate(-90 317.18249511718756,124.85731506347655) "/>
+  <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" x1="3" y1="198.0375" x2="576.5" y2="198.0375" id="svg_19" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="5,5"/>
+  <rect fill="url(#svg_32)" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="0.54" y="200.0375" width="580" height="200" id="svg_21"/>
+  <path stroke="#000" fill="#aaffff" stroke-width="1.5" stroke-opacity="null" d="m214.51747,280.558306l28.124996,-59.999992l93.749991,0l28.124986,59.999992l-149.999972,0l-0.000001,0z" id="svg_34"/>
+  <path fill="#aaffff" stroke-width="1.5" stroke-opacity="null" d="m27.849984,352.058304l22.124998,-100.999986l73.749992,0l22.124989,100.999986l-117.99998,0l0.000001,0z" id="svg_36" stroke="#000"/>
+  <path fill="#aaffff" stroke-width="1.5" stroke-opacity="null" d="m434.849984,351.749985l22.124998,-100.999987l73.749993,0l22.124989,100.999987l-117.99998,0z" id="svg_38" stroke="#000"/>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="68.95776" y="290" id="svg_39" font-size="43" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">M</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" x="275.191177" y="253.8375" id="svg_40" font-size="43" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">S</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" x="475.949951" y="290" id="svg_41" font-size="43" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">M</text>
+  <text fill="#000000" stroke="#000" stroke-opacity="null" fill-opacity="null" x="56.004635" y="345" id="svg_42" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">MODBUS</text>
+  <text fill="#000000" stroke="#000" stroke-opacity="null" fill-opacity="null" x="260.214615" y="274" id="svg_43" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">SHARED</text>
+  <text fill="#000000" stroke="#000" stroke-opacity="null" fill-opacity="null" x="461.965576" y="345" id="svg_44" font-size="14" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">MEMORY</text>
+  <path fill="#666666" stroke-width="1.5" stroke-opacity="null" d="m139.7652,111.553946l21.84845,-12.01053l0,6.005249l31.66412,0l0,-6.005249l21.84844,12.01053l-21.84844,12.010466l0,-6.005234l-31.66412,0l0,6.005234l-21.84845,-12.010466z" id="svg_50" transform="rotate(30.369461059570312 177.44570922851565,111.55391693115236) " stroke="#000"/>
+  <path fill="#666666" stroke-width="1.5" stroke-opacity="null" d="m362.7652,111.553939l21.848451,-12.01053l0,6.005249l31.664119,0l0,-6.005249l21.848441,12.01053l-21.848441,12.010466l0,-6.005234l-31.664119,0l0,6.005234l-21.848451,-12.010466z" id="svg_51" transform="rotate(-30 400.4457092285156,111.55390930175781) " stroke="#000"/>
+ </g>
+</svg>
