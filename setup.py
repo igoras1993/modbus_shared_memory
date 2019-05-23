@@ -7,7 +7,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="ModbusSharedMemory",
-    version="0.1.0",
+    version="0.1.1",
     author="Igor Kantorski",
     author_email="igor.kantorski@gmail.com",
     description="Shared memory concept known from PLC manner implemented over uModbus framework.",
