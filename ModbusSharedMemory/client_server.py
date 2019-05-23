@@ -81,24 +81,16 @@ class ModbusMasterTCP:
     def write_multiple_reg(self, starting_addr, values, slave_id=None):
         slv_id = self.default_slave_id if slave_id is None else slave_id
         for starting_idx, ending_idx in self.get_chunk_indices(values, 123): 
-            request_adu = tcp.write_multiple_registers(slv_id, starting_addr + starting_idx, values[starting_idx:ending_idx + 1])
-            try:
-                tcp.send_message(request_adu, self.socket)
-            except Exception as e:
-                print(len(values[starting_idx:ending_idx + 1]), starting_idx, ending_idx)
-                raise e
-
-
+            request_adu = tcp.write_multiple_registers(slv_id, starting_addr + starting_idx, values[starting_idx:ending_idx])
+            tcp.send_message(request_adu, self.socket)
+            
     def read_multiple_reg(self, starting_addr, count, slave_id=None):
         slv_id = self.default_slave_id if slave_id is None else slave_id
         
         response = [None] * count
         for starting_idx, ending_idx in self.get_chunk_indices(range(count), 125):
-            try:
-                request_adu = tcp.read_holding_registers(slv_id, starting_idx, ending_idx-starting_idx+1)
-            except:
-                print(count)
-            response[starting_idx:ending_idx+1] = tcp.send_message(request_adu, self.socket)
+            request_adu = tcp.read_holding_registers(slv_id, starting_addr + starting_idx, ending_idx - starting_idx)
+            response[starting_idx:ending_idx] = tcp.send_message(request_adu, self.socket)
 
         return response
 
@@ -165,15 +157,13 @@ class ModbusMasterTCP:
     @staticmethod
     def get_chunk_indices(table, chunk_size):
         t_len = len(table)
-        last_idx = min(t_len, chunk_size) - 1
-        yield (0, last_idx)
+        last_idx = 0
         while True:
-            last_idx = last_idx + chunk_size
-            if last_idx >= t_len:
-                yield (last_idx - chunk_size + 1, t_len - 1)
+            next_idx = min(t_len, last_idx + chunk_size)
+            yield last_idx, next_idx
+            last_idx = next_idx
+            if next_idx == t_len:
                 raise StopIteration
-            else:
-                yield (last_idx - chunk_size + 1, last_idx)
 
     def _log(self, message):
         with open("client_log.log", "a") as f:
