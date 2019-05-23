@@ -50,7 +50,7 @@ Motivation and features
 ### Features
 
 We can enumerate current features:  
--   MSM depends on standard python modules and a uModbus, which is writen in pure python,
+-   MSM depends on standard python modules and a [uModbus](https://umodbus.readthedocs.io/en/stable/index.html), which is writen in pure python,
 -   MSM is written in pure python too, it does not require any compilation steps during installation,
 -   can be used in any enviorment that supports python
 -   it is small and simple
